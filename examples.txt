@@ -1,0 +1,24 @@
+teams
+=====
+cleardrop
+groupon
+google
+
+users
+=====
+val
+heli
+luigi
+
+luigi creates his account
+luigi creates cleardrop category
+luigi adds heli's key "123" to cleardrop category
+luigi adds val's key "456" to cleardrop category
+authorized_keys will now be dynamically generated on each request
+by appending the public key strings together.
+
+
+
+https://developer.github.com/v3/users/keys/
+GET /users/:username/keys
+GET /user/keys
